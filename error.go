@@ -5,6 +5,13 @@
 
 package sqlite3
 
+/*
+#cgo LDFLAGS: -lsqlite3
+#include <sqlite3.h>
+#include <stdlib.h>
+#include <string.h>
+
+*/
 import "C"
 
 type ErrNo int
